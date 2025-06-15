@@ -1,1 +1,24 @@
-
+{
+	"Response": {
+		"Redirect": "https://siprec.infinit.cx/icx-vxml-browser/2",
+		"Gather": {
+			"speechModel": "numbers_and_commands",
+			"hints": "0, null, 1, eins, 2, zwei, zwo, 3, drei, 4, vier, 5, fünf, 6, sechs, 7, sieben, 8, acht, 9, neun",
+			"bargein": true,
+			"language": "de-DE",
+			"Say": {
+				"voice": "Polly.Daniel-Neural",
+				"language": "de-DE",
+				"content": "Bitte geben Sie eine 1 bis 6 stellige Nummer ein!"
+			},
+			"timeout": 5,
+			"input": "dtmf speech",
+			"actionOnEmptyResult": true,
+			"numDigits": 6,
+			"action": "https://siprec.infinit.cx/icx-vxml-browser/1",
+			"maxSpeechTime": 10,
+			"speechTimeout": "auto",
+			"finishOnKey": "#"
+		}
+	}
+}
