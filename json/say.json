@@ -1,0 +1,16 @@
+{
+	"Response": {
+		"Say": {
+			"voice": "Polly.Daniel-Neural",
+			"language": "de-DE",
+			"content": "Bitte sprechen Sie nach dem Ton"
+		},
+		"Record": {
+			"playBeep": true,
+			"action": "https://siprec.infinit.cx/icx-vxml-browser/1",
+			"maxLength": 60,
+			"timeout": 3
+		},
+		"Redirect": "https://siprec.infinit.cx/icx-vxml-browser/2"
+	}
+}
