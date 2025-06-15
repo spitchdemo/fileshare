@@ -1,0 +1,17 @@
+{
+	"Response": {
+		"Say": [
+			{
+				"url": "https://siprec.infinit.cx/icx-v4j/Uploads/file/audio-2025-06-03T09-50-11.542290502.wav"
+			},
+			{
+				"voice": "Polly.Daniel-Neural",
+				"language": "de-DE",
+				"content": "Vielen Dank!"
+			}
+		],
+		"Exit": {
+			"RESULT": 0
+		}
+	}
+}
